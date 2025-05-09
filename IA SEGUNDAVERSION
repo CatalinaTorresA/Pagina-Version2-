@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado Libre</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header img {
+      vertical-align: middle;
+      height: 40px;
+    }
+
+    .search-bar {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 20px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 300px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .search-bar button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    nav {
+      margin-top: 10px;
+      background-color: #fff;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+
+    nav span {
+      margin: 0 8px;
+      cursor: pointer;
+    }
+
+    .account-options {
+      float: right;
+      margin-right: 20px;
+    }
+
+    .account-options span {
+      margin: 0 6px;
+    }
+
+    .main-banner {
+      margin-top: 10px;
+    }
+
+    .promo-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      background-color: #fff;
+      padding: 20px 0;
+    }
+
+    .promo-section img {
+      max-height: 100px;
+    }
+
+    a img {
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.jpg" alt="Logo Mercado Libre" />
+    
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar productos, marcas y más..." />
+      <button type="submit">
+        <img src="Boton.jpg" alt="Buscar" height="20" />
+      </button>
+    </div>
+
+    <img src="EnvioGratis.jpg" alt="Envío gratis" />
+    
+    <div class="account-options">
+      <span>Crea tu cuenta</span>
+      <span>Ingresa</span>
+      <span>Mis compras</span>
+      <img src="Carrito.jpg" alt="Carrito" height="20" />
+    </div>
+
+    <div style="clear: both;"></div>
+  </header>
+
+  <nav>
+    <a href="https://www.mercadolibre.com.co/navigation/addresses-hub?go=https%3A%2F%2Fwww.mercadolibre.com.co%2F">
+      <img src="Ubicacion.jpg" alt="Ubicación" />
+    </a>
+    <span>Categorías <img src="Flecha.jpg" alt="Flecha" /></span>
+    <span>Ofertas</span>
+    <span>Cupones</span>
+    <span>Supermercado</span>
+    <span>Moda</span>
+    <span>Mercado Play</span>
+    <span>Vender</span>
+    <span>Ayuda</span>
+  </nav>
+
+  <div class="main-banner">
+    <img src="Banner.jpg" alt="Banner" width="100%" />
+  </div>
+
+  <div class="promo-section">
+    <a href="https://www.mercadolibre.com.co/ofertas/envios-gratis#...">
+      <img src="Envio Gratis.jpg" alt="Envío gratis promo" />
+    </a>
+
+    <a href="https://www.mercadolibre.com.co/navigation/addresses-hub?...">
+      <img src="IngresaUbi.jpg" alt="Ubicación Promo" />
+    </a>
+
+    <a href="https://www.mercadolibre.com/jms/mco/lgz/msl/login?...">
+      <img src="Ingresa.jpg" alt="Ingresa promo" />
+    </a>
+
+    <img src="Medios.jpg" alt="Medios de pago" />
+
+    <a href="https://www.mercadolibre.com.co/ofertas?...">
+      <img src="Menos.jpg" alt="Precios bajos" />
+    </a>
+
+    <a href="https://www.mercadolibre.com.co/mas-vendidos?...">
+      <img src="Vendidos.jpg" alt="Más vendidos" />
+    </a>
+
+    <img src="FlechaDerecha.jpg" alt="Siguiente" />
+  </div>
+</body>
+</html>

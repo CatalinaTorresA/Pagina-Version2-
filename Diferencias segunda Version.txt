@@ -1,0 +1,28 @@
+Mi código utiliza un archivo CSS externo (styles.css), lo que permite mantener una estructura limpia y profesional.
+
+El de la IA incluye los estilos dentro del mismo archivo HTML, útil para demostraciones rápidas pero menos escalable.
+
+Mi código usa etiquetas semánticas como <header>, <main>, <section>, lo que mejora la accesibilidad y el SEO.
+
+El de la IA solo usa <div> y <span>, lo que hace la estructura menos clara y moderna.
+
+Mi versión aplica flexbox, gap, colores institucionales, bordes redondeados, efectos hover y organización visual atractiva.
+
+El de la IA tiene un diseño plano, sin bordes ni efectos visuales, y se apoya en &nbsp; para separar elementos.	
+
+
+Mi código se adapta a distintas pantallas gracias a media queries.
+
+El de la IA no tiene soporte responsivo, así que se ve igual en computador o móvil, aunque mal distribuido en el segundo.
+
+Mi código define textos alternativos (alt) en las imágenes, organiza los botones y facilita la navegación.
+
+El de la IA no garantiza accesibilidad y los elementos están colocados sin jerarquía ni retroalimentación visual.
+
+Mi estructura es fácil de extender y mantener gracias a clases reutilizables y estilos separados.
+
+El de la IA no es tan práctico si quiero hacer cambios a gran escala.
+
+Mi código presenta las opciones como tarjetas con imagen, título y descripción, lo cual mejora la presentación y comprensión.
+
+El de la IA solo muestra imágenes sueltas, sin contexto o estilo.
